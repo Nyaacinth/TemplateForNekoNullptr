@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Development Server",
+            "type": "npm",
+            "script": "serve-app",
+            "group": "build",
+        },
+        {
+            "label": "Build Statics",
+            "type": "npm",
+            "script": "build-app",
+            "group": "build"
+        }
+    ]
+}
